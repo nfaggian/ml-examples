@@ -1,0 +1,31 @@
+# piptools
+pip-tools
+
+# notebooks
+jupyterlab
+jupyterlab-git
+jupyterlab_code_formatter
+#pandas_profiling
+
+# plotting
+matplotlib
+seaborn
+
+# numerical tools
+pandas==1.0.1
+scipy
+numpy
+
+# frameworks
+tensorflow # tf-nightly
+fbprophet
+scikit-learn
+xgboost
+
+# dev-tools
+pylint 
+black
+
+# google
+google-cloud-storage
+google-cloud-bigquery
