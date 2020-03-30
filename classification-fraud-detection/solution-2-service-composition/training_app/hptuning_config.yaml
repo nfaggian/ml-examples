@@ -1,0 +1,27 @@
+trainingInput:
+  hyperparameters:
+    goal: MAXIMIZE
+    hyperparameterMetricTag: roc_auc
+    enableTrialEarlyStopping: TRUE
+    params:
+    - parameterName: max_depth
+      type: DISCRETE
+      discreteValues: [
+         10, 
+         50,
+         90,
+         130,
+         170,
+         200         
+          ]
+    - parameterName: n_estimators
+      type: DISCRETE
+      discreteValues: [
+          200, 
+          400, 
+          800,
+          1000,
+          1400,
+          1800,
+          2000
+          ]
