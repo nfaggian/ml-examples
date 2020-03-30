@@ -28,10 +28,16 @@ activate:
 	$(info [*] Activate virtualenv $(PYTHON_ENV_NAME)...)
 	$(shell eval "$$(pyenv init -)" && eval "$$(pyenv virtualenv-init -)" && pyenv activate $(PYTHON_ENV_NAME) && pyenv local $(PYTHON_ENV_NAME))
 
+node:
+	$(MAKE) activate
+	$(info [*] Install node/nodejs dependencies...)
+	@pip install nodeenv
+	nodeenv -p
+
 lab:
 	$(MAKE) activate
 	$(info [*] Start jupyter lab)
-	@cd notebooks && jupyter lab
+	jupyter lab
 
 clean:
 	$(info [*] Deleting artifacts for $(PYTHON_ENV)...)

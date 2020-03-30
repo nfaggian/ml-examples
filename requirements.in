@@ -6,6 +6,7 @@ jupyterlab
 jupyterlab-git
 jupyterlab_code_formatter
 #pandas_profiling
+nodeenv
 
 # plotting
 matplotlib
