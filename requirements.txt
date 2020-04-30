@@ -69,16 +69,17 @@ markupsafe==1.1.1         # via jinja2
 matplotlib==3.2.0         # via -r requirements.in, fbprophet, seaborn
 mccabe==0.6.1             # via pylint
 mistune==0.8.4            # via nbconvert
-nbconvert==5.6.1          # via notebook
+nbconvert==5.6.1          # via nbtoolbelt, notebook
 nbdime==1.1.0             # via jupyterlab-git
-nbformat==5.0.4           # via nbconvert, nbdime, notebook
+nbformat==5.0.4           # via nbconvert, nbdime, nbtoolbelt, notebook
+nbtoolbelt==2018.2.dev0   # via -r requirements.in
 nodeenv==1.3.5            # via -r requirements.in
 notebook==6.0.3           # via jupyterlab, jupyterlab-code-formatter, jupyterlab-git, jupyterlab-server, nbdime
-numpy==1.18.1             # via -r requirements.in, cmdstanpy, fbprophet, h5py, keras-preprocessing, matplotlib, opt-einsum, pandas, pystan, scikit-learn, scipy, seaborn, tensorboard, tensorflow, xgboost
+numpy==1.18.1             # via -r requirements.in, cmdstanpy, fbprophet, h5py, keras-preprocessing, matplotlib, nbtoolbelt, opt-einsum, pandas, pystan, scikit-learn, scipy, seaborn, tensorboard, tensorflow, xgboost
 oauthlib==3.1.0           # via requests-oauthlib
 opt-einsum==3.2.0         # via tensorflow
 packaging==20.3           # via jupyterlab-code-formatter
-pandas==1.0.1             # via -r requirements.in, cmdstanpy, fbprophet, seaborn
+pandas==1.0.1             # via -r requirements.in, cmdstanpy, fbprophet, nbtoolbelt, seaborn
 pandocfilters==1.4.2      # via nbconvert
 parso==0.6.2              # via jedi
 pathspec==0.7.0           # via black

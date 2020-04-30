@@ -7,6 +7,7 @@ jupyterlab-git
 jupyterlab_code_formatter
 bleach>=3.1.4 
 nodeenv
+nbtoolbelt
 
 # plotting
 matplotlib

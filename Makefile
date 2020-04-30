@@ -40,10 +40,14 @@ lab:
 	jupyter lab
 
 clean:
+
+clean:
+	$(MAKE) activate
+	$(info [*] Cleaning notebook output-cells...)
+	find -iname '*.ipynb' -execdir nbtb clean --inplace -o -e {} \;
 	$(info [*] Deleting artifacts for $(PYTHON_ENV)...)
 	@rm -Rf *.egg .eggs .cache dist build .pytest_cache *.egg-info
 	@find -depth -type d -name __pycache__ -exec rm -Rf {} \;
 	@find -depth -type d -name .ipynb_checkpoints -exec rm -Rf {} \;
 	@find -type f -name '*.pyc' -delete
-
 
