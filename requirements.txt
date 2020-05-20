@@ -43,7 +43,7 @@ googleapis-common-protos==1.51.0  # via google-api-core
 grpcio==1.27.2            # via tensorboard, tensorflow
 h5py==2.10.0              # via tensorflow
 holidays==0.10.1          # via fbprophet
-httplib2==0.17.1          # via google-api-python-client, google-auth-httplib2
+httplib2==0.18.0          # via google-api-python-client, google-auth-httplib2
 idna==2.8                 # via requests
 ipykernel==5.1.4          # via notebook
 ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
@@ -114,8 +114,8 @@ six==1.14.0               # via absl-py, astroid, astunparse, bleach, cycler, go
 smmap==3.0.1              # via gitdb
 tensorboard-plugin-wit==1.6.0.post2  # via tensorboard
 tensorboard==2.2.0        # via tensorflow
-tensorflow-estimator==2.2.0rc0  # via tensorflow
-tensorflow==2.2.0rc2      # via -r requirements.in
+tensorflow-estimator==2.2.0  # via tensorflow
+tensorflow==2.2.0         # via -r requirements.in
 termcolor==1.1.0          # via tensorflow
 terminado==0.8.3          # via notebook
 testpath==0.4.4           # via nbconvert
